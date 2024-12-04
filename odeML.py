@@ -7,7 +7,14 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from scipy.integrate import solve_ivp
 
-# Step 1: Create synthetic data for temperature vs growth rate
+
+#Problem statement:Researchers are investigating how environmental factors like temperature influence biological growth rates in a specific ecosystem. 
+# The challenge is to accurately predict how the growth rate of a population changes with changes in temperature. 
+# Using historical temperature and growth rate data, develop a predictive model that estimates growth rates at varying temperatures. 
+# Also, apply these predicted growth rates to a logistic growth model to simulate how the population might evolve over time considering environmental carrying capacities. 
+# This approach combines machine learning predictions with differential equation modeling to provide a view of population dynamics under changing environmental conditions.
+
+# Step 1: Create data for temperature vs growth rate
 # Temperatures (independent variable)
 temperatures = np.array([20, 22, 24, 26, 28, 30, 32, 34, 36, 38]).reshape(-1, 1)
 # Growth rates (dependent variable)
