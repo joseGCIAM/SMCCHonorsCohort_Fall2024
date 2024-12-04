@@ -3,6 +3,11 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 
+
+# Probelm statement:In a controlled environment,a population of animals is introduced with a limited amount of resources. 
+# The population is expected to grow rapidly at first but slow down as it nears the environment's carrying capacity due to resource constraints. 
+# Using the logistic growth model, predict how the population changes over time, taking into account the initial population, growth rate, and environmental carrying capacity.
+
 # Define the logistic growth model as a differential equation
 def logistic_growth(t, P, r, K):
     """
