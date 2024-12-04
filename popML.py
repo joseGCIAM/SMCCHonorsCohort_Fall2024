@@ -7,7 +7,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 
-#
+# Problem statement: A small town has been experiencing steady population growth over the past decade. 
+# Town officials need to predict future population sizes to allocate resources effectively and plan for infrastructure development. 
+# Using historical data of the town's population over the last ten years, create a machine learning model that predicts population growth 
+# trends. The solution should provide insights into future growth to help the town plan housing, schools, and other essential services.
 
 # Step 1: Create a simple dataset
 # Years (independent variable)
